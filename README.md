@@ -10,5 +10,5 @@ Go into the forlder and run it on your terminal by using "shotgun -p 4567"
 
 ## What can you do on the app
 
-Share gossips
+Share gossips <br>
 Check community gossips 
