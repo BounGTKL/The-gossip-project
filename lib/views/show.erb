@@ -1,0 +1,22 @@
+<!--On intègre du HTML à la page show.erb-->
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Potin <%= id %></title>   <!--On intégre le code ruby au html. on met l'id du potin-->
+
+</head>
+
+<body>
+  <h1>Découvrez les secrets de votre communauté !! </h1>
+  <p>Voici le potin numéro : <%= id %></p>
+  <p> "<%= gossip.content %>"</p>
+
+  <p>Par  <%= gossip.author %> /p>
+
+  <a href="/">je retourne au menu</a>
+</body>
+
+
+</html>
