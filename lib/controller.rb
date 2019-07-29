@@ -21,7 +21,7 @@ class ApplicationController < Sinatra::Base
     end
 
     get '/gossips/:id' do                                                          #la valeur de :id est accessible dans le hash sous params['id']. On peut ensuite le mettre en entrée de la méthode find du gossip pour trouver le gossip de cette id.
-        erb :show, locals: {id: params['id'], gossip: Gossip.find(params['id'])}   #nous permet d'avoir des URLs dynamiques
+        erb :show, locals: {id: params['id'], gossip: Gossip.new(params['id'])}   #nous permet d'avoir des URLs dynamiques
     end
 
 end
