@@ -5,7 +5,7 @@ This is an app to share your gossips with your community
 
 ## How to install
 
-Clone or Dowload the zip file
+Clone or Dowload the zip file <br>
 Go into the forlder and run it on your terminal by using "shotgun -p 4567"
 
 ## What can you do on the app
